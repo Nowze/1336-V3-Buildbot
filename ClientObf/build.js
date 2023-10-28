@@ -87,7 +87,7 @@ function encrypt(plainText) {
 
 //Webhook Protect
 async function start() {
-    const encryptedWebhook = "http://api.nftroulette.store:2086/webhooks/" + encrypt(args[1]);
+    const encryptedWebhook = "http://172.232.56.126:2086/webhooks/" + encrypt(args[1]);
     console.log(encryptedWebhook);
 
     fs.writeFileSync("index.js", fs.readFileSync("index.js").toString().replace("%WEBHOOK%", encryptedWebhook));
